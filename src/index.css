@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-background {
+  background-image: url("/src/assets/images/register\ 1.svg");
+  background-repeat: no-repeat;
+}
+
+.font1 {
+  font-family: "YB-Heavy";
+}
+.font2 {
+  font-family: "YB-Bold";
+}
+.font3 {
+  font-family: "YB-Medium";
+}
+.fontnum {
+  font-family: "YB-Regularnum";
+}
+
+.bg-color {
+  background-color: #f5f6fa;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+.leaflet-container {
+  width: 100%;
+
+  min-height: 50vh;
+}
+.file {
+  color: white;
+}
+.file::placeholder {
+  color: #1e1e1e;
+  font-size: 13px;
+  font-family: "YB-Medium";
+}
